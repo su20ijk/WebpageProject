@@ -1,0 +1,628 @@
+﻿body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+body {
+    -epub-hyphens: auto;
+}
+
+div.Basic-Graphics-Frame, img.Basic-Graphics-Frame {
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.Basic-Text-Frame {
+    border-style: solid;
+}
+
+p.Basic-Paragraph {
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    orphans: 1;
+    page-break-after: auto;
+    page-break-before: auto;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    widows: 1;
+}
+
+p.ParaOverride-1 {
+    text-align: right;
+
+}
+
+p.ParaOverride-2 {
+    -epub-hyphens: none;
+}
+
+p.ParaOverride-3 {
+    -epub-hyphens: none;
+    text-align: right;
+}
+
+p.ParaOverride-4 {
+    text-align: center;
+}
+
+p.ParaOverride-5 {
+    -epub-hyphens: none;
+    text-align: center;
+}
+p.ParaOverride-6 {
+    line-height: 0.5em;
+}
+
+span.CharOverride-1 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-2 {
+    color: #ffffff;
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-3 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.CharOverride-4 {
+    font-family: "Andada Bold", sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-5 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-6 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 9px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.CharOverride-7 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-8 {
+    font-family: "Ostrich Sans (TT) Medium", sans-serif;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-9 {
+    color: #ffffff;
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-10 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-11 {
+    color: #96bfbf;
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-12 {
+    font-family: "Playfair Display";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-13 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-14 {
+    font-family: "Ostrich Sans (TT) Medium", sans-serif;
+    font-size: 125px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-15 {
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-16 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-17 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-18 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-19 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-20 {
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-21 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-22 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-23 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-24 {
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-25 {
+    color: #ac493c;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-26 {
+    color: #ac493c;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-27 {
+    color: #ffffff;
+    font-family: "Ostrich Sans (TT) Medium", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-28 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.CharOverride-29 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-30 {
+    color: #ac493c;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-31 {
+    color: #96bfbf;
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-32 {
+    font-family: "Ostrich Sans (TT) Black", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.CharOverride-33 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-34 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+span.CharOverride-35 {
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span.CharOverride-36 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span.CharOverride-37 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+span.CharOverride-38 {
+    color: #ffffff;
+    font-family: "Myriad Pro Cond", sans-serif;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#_idContainer000 {
+    display: inline-block;
+    height: 173px;
+    width: 267px;
+}
+
+#_idContainer001 {
+    display: inline-block;
+    height: 126px;
+    width: 267px;
+}
+
+#_idContainer002 {
+    display: inline-block;
+    height: 151px;
+    width: 267px;
+}
+
+#_idContainer003, #_idContainer065 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 42px;
+}
+
+#_idContainer004 {
+    display: inline-block;
+    height: 97px;
+    position: relative;
+    width: 38px;
+}
+
+#_idContainer005 {
+    display: inline-block;
+    height: 21px;
+    position: relative;
+    width: 622px;
+}
+
+#_idContainer012, #_idContainer013 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 0px;
+}
+
+#_idContainer015 {
+    -ms-transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    -webkit-transform-origin: 0% 0%;
+    height: 22.93px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    width: 51.58px;
+    z-index: 0;
+}
+
+#_idContainer016 {
+    -ms-transform: translate(13.423px,10.720px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform: translate(13.423px,10.720px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    -webkit-transform-origin: 0% 0%;
+    height: 16.82px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transform: translate(13.423px,10.720px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform: translate(13.423px,10.720px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    width: 30.19px;
+    z-index: 1;
+}
+
+#_idContainer017 {
+    -ms-transform: translate(0.000px,0.000px) rotate(5.000deg) skew(0.000deg) scale(1.000,1.000);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: translate(0.000px,0.000px) rotate(5.000deg) skew(0.000deg) scale(1.000,1.000);
+    -webkit-transform-origin: 50% 50%;
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    transform: translate(0.000px,0.000px) rotate(5.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform: translate(0.000px,0.000px) rotate(5.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 52px;
+}
+
+#_idContainer024 {
+    display: inline-block;
+    height: 263px;
+    position: relative;
+    width: 334px;
+}
+
+#_idContainer028 {
+    display: inline-block;
+    height: 681px;
+    width: 876px;
+}
+
+#_idContainer034 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 90px;
+}
+
+#_idContainer036 {
+    -ms-transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,-1.000);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,-1.000);
+    -webkit-transform-origin: 50% 50%;
+    display: inline-block;
+    height: 132px;
+    transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,-1.000);
+    transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,-1.000);
+    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 78px;
+}
+
+#_idContainer039 {
+    display: inline-block;
+    height: 132px;
+    width: 194px;
+}
+
+#_idContainer041 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 87px;
+}
+
+#_idContainer045, #_idContainer046, #_idContainer047, #_idContainer048, #_idContainer049 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 104px;
+}
+
+#_idContainer050 {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    width: 98px;
+}
+
+#_idContainer055 {
+    display: inline-block;
+    height: 128px;
+    width: 106px;
+}
+
+#_idContainer056 {
+    display: inline-block;
+    height: 55px;
+    position: relative;
+    width: 106px;
+}
+
+#_idContainer061, #_idContainer062 {
+    -ms-transform: translate(0.000px,0.000px) rotate(0.499deg) skew(0.000deg) scale(1.000,1.000);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: translate(0.000px,0.000px) rotate(0.499deg) skew(0.000deg) scale(1.000,1.000);
+    -webkit-transform-origin: 50% 50%;
+    display: inline-block;
+    height: 7px;
+    transform: translate(0.000px,0.000px) rotate(0.499deg) skew(0.000deg) scale(1.000,1.000);
+    transform: translate(0.000px,0.000px) rotate(0.499deg) skew(0.000deg) scale(1.000,1.000);
+    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 7px;
+}
+
+#_idContainer063 {
+    display: inline-block;
+    height: 6px;
+    position: relative;
+    width: 8px;
+}
+
+#_idContainer066 {
+    -ms-transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,1.000);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,1.000);
+    -webkit-transform-origin: 50% 50%;
+    display: inline-block;
+    height: 110px;
+    position: relative;
+    transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform: translate(0.000px,0.000px) rotate(180.000deg) skew(0.000deg) scale(1.000,1.000);
+    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 38px;
+}
+
+img._idGenObjectAttribute-1 {
+    height: 100.00%;
+    min-width: 100%;
+    width: 100.00%;
+}
+
+img._idGenObjectAttribute-2 {
+    height: 9px;
+    width: 7px;
+}
+
+div._idGenObjectStyleOverride-1 {
+    border-width: 0px;
+}
+
+div._idGenObjectStyleOverride-2 {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+div._idGenObjectStyleOverride-3 {
+    background-color: #695b6d;
+    border-width: 0px;
+}
+
+div._idGenObjectStyleOverride-4 {
+    background-color: #ac493c;
+    border-width: 0px;
+}
+
+div._idGenObjectStyleOverride-5 {
+    background-color: #000000;
+    border-width: 0px;
+}
+
+div._idGenObjectStyleOverride-6 {
+    background-color: #000000;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+div._idGenObjectStyleOverride-7 {
+    background-color: #f4dbb2;
+    border-width: 0px;
+}
+
+div._idGenObjectStyleOverride-8 {
+    background-color: #ac493c;
+    border-color: #ac493c;
+    border-width: 2px;
+}
+
+div._idGenObjectStyleOverride-9 {
+    background-color: #96bfbf;
+    border-color: #96bfbf;
+    border-style: solid;
+    border-width: 5px;
+}
+
+div._idGenObjectStyleOverride-10 {
+    background-color: #ffffff;
+    border-width: 0px;
+}
+
+div._idGenObjectLayout-1 {
+    text-align: center;
+}
+
+div._idGenObjectLayout-2 {
+    margin: 2px 1px 2px 1px;
+}
