@@ -1,3 +1,43 @@
-﻿body {
+﻿html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
+div {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#div1 {
+    background-color: #94c8c6;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+
+#div2 {
+    background-color: #62619d;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+
+#div3 {
+    background-color: #800020;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+
+#div4 {
+    background-color: #d6cb7c;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
 }
