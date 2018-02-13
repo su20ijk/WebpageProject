@@ -1,5 +1,6 @@
 ﻿body {
     font-family: Helvetica, sans-serif;
+    background-image: url("logo.jpg")
 }
 
 .overlay {
