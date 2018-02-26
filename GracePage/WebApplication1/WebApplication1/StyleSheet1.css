@@ -1,2 +1,27 @@
 ﻿body {
+   
+}
+ #main
+{
+    
+
+
+}
+content {
+padding: 10px;
+}
+#left{
+    width: 150px;
+    float: left;
+}
+#right {
+    width: 150px;
+    float: right;
+}
+#footer {
+    clear: both;
+}
+#header {
+    height: 50px;
+    background-color: aqua;
 }
