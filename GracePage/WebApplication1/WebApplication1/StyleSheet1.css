@@ -1,27 +1,40 @@
 ﻿body {
-   
+    background-color: #fffce5;
 }
  #main
 {
-    
-
-
+float: right;
 }
 content {
 padding: 10px;
 }
-#left{
-    width: 150px;
+
+#nav{
     float: left;
+    width:60px;
+    height:1000px;
+    padding: 10px;
+}
+
+#left{
+
+    width: 450px;
+    float: left;
+    padding: 10px;
 }
 #right {
-    width: 150px;
+    width: 850px;
     float: right;
+    padding: 10px;
 }
 #footer {
     clear: both;
+    height: 10px;
+    text-align: center;
 }
 #header {
-    height: 50px;
-    background-color: aqua;
+    height: 950px;
+    
+    float: none;
+   text-align: center;
 }
