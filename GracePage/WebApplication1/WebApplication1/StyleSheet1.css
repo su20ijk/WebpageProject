@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #fffce5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  #main
 {
@@ -21,11 +22,14 @@ padding: 10px;
     width: 450px;
     float: left;
     padding: 10px;
+    font: italic;
 }
 #right {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 850px;
     float: right;
     padding: 10px;
+    font:600;
 }
 #footer {
     clear: both;
